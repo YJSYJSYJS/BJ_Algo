@@ -1,0 +1,32 @@
+str_num = dict()
+str_num['A']=2
+str_num['B']=2
+str_num['C']=2
+str_num['D']=3
+str_num['E']=3
+str_num['F']=3
+str_num['G']=4
+str_num['H']=4
+str_num['I']=4
+str_num['J']=5
+str_num['K']=5
+str_num['L']=5
+str_num['M']=6
+str_num['N']=6
+str_num['O']=6
+str_num['P']=7
+str_num['Q']=7
+str_num['R']=7
+str_num['S']=7
+str_num['T']=8
+str_num['U']=8
+str_num['V']=8
+str_num['W']=9
+str_num['X']=9
+str_num['Y']=9
+str_num['Z']=9
+script = input()
+time = 0
+for s in script:
+    time += str_num[s]+1
+print(time)
