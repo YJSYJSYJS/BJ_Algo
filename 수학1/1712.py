@@ -7,7 +7,12 @@ A, B, C = list(map(int, input().split()))
 #     BEP+=1
 #     cost = A+B*BEP
 #     prof = C*BEP
-
-# print(BEP)
-
-print(int(A/(C-B))+1)
+if B!=C:
+    BEP = int(A/(C-B))+1
+else:
+    BEP = -1
+    
+if BEP > 0:
+    print(BEP)
+else:
+    print(-1)
