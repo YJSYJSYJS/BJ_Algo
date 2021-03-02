@@ -8,7 +8,5 @@ for i in range(T):
         floor = H
         r_num-=1
     ans = floor*100 + r_num
-    # if H==1&W==1:
-    #     ans = 101
     print(str(ans))  
     
